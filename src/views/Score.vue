@@ -217,7 +217,6 @@ export default {
             .then(async response => {
               console.log(response.data)
               await this.getReceipt()
-              await router.go(0)
             })
             .catch(error => console.log(error))
         // this.desserts.push(this.editedItem)
